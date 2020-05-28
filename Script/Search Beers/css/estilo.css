@@ -1,0 +1,317 @@
+/*
+--- estilos  CSS - Website Seerch Beers
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*
+--- Padrões e Reset
+*/
+
+
+/*
+--- Tipografia e cores
+*/
+
+#fundo {
+    width: auto;
+    height: auto;
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+label {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #f7b600;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Selphia Selphia Script;
+    font-size: 30px;
+    padding-left: 10px;
+    color: white;
+    text-align: center;
+}
+
+h2,
+p {
+    color: white;
+    text-align: center;
+}
+
+h4 {
+    font-family: Adobe Arabic;
+    font-size: 22px;
+    padding-left: 20px;
+    color: white;
+    font-weight: 900;
+}
+
+#e-mail-contato {
+    color: blue;
+}
+
+hr {
+    border: 3px solid white;
+}
+
+
+/*
+--- Estrutura
+*/
+
+
+/*
+--- Estilos específicos de Seção
+*/
+
+
+/*
+--- Formulários
+*/
+
+
+/*
+--- Tabelas
+*/
+
+
+/*
+--- Classes de Uso Geral
+*/
+
+.menu {
+    width: 99, 9%;
+    height: 75px;
+    background-color: black;
+    font-size: 22px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    position: relative;
+}
+
+.menu ul li {
+    width: 150px;
+    float: left;
+}
+
+.menu a {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.menu a:hover {
+    background-color: #f7b600;
+    color: white;
+}
+
+.menu ul ul {
+    position: absolute;
+    visibility: hidden;
+}
+
+.menu ul li:hover ul {
+    visibility: visible;
+}
+
+nav ul ul ul {
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+#area-cabecalho {
+    padding: 20px;
+}
+
+#logo {
+    height: 140px;
+    width: 160px;
+}
+
+#area-logo {
+    width: 100%;
+    background-color: black;
+    height: 230px;
+    text-align: center;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: 320;
+    width: 500;
+}
+
+.img-fluid2 {
+    height: 400px;
+    width: 100%;
+    margin-left: 230px;
+    margin-top: -260px;
+}
+
+.img-fluid3 {
+    height: 250px;
+    width: 90%;
+    margin-left: 230px;
+    margin-top: -260px;
+}
+
+#logo-invicta {
+    text-align: center;
+}
+
+#logo-colorado {
+    text-align: center;
+}
+
+#logo-contato {
+    text-align: center;
+}
+
+#logo-sobre-nos {
+    text-align: center;
+}
+
+.postagem {
+    background: black;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+}
+
+#estilos {
+    margin-left: 170px;
+    margin-right: 150px;
+}
+
+#ordenar {
+    margin-left: 950px;
+}
+
+#colorado {
+    border: 5px solid black;
+    height: 230px;
+    width: 180px;
+    margin-left: 135px;
+    font-size: 18px;
+}
+
+#colorado:hover {
+    border: 5px solid #f7b600;
+    text-decoration: none;
+}
+
+#invicta {
+    border: 5px solid black;
+    height: 230px;
+    width: 180px;
+    margin-left: 135px;
+    font-size: 18px;
+}
+
+#invicta:hover {
+    border: 5px solid #f7b600;
+}
+
+#lund {
+    border: 5px solid black;
+    height: 230px;
+    width: 180px;
+    margin-left: 135px;
+    font-size: 18px;
+}
+
+#lund:hover {
+    border: 5px solid #f7b600;
+}
+
+#pratinha {
+    border: 5px solid black;
+    height: 230px;
+    width: 180px;
+    margin-left: 135px;
+    font-size: 18px;
+}
+
+#pratinha:hover {
+    border: 5px solid #f7b600;
+}
+
+#jops {
+    border: 5px solid black;
+    height: 230px;
+    width: 180px;
+    margin-left: 135px;
+    font-size: 18px;
+}
+
+#jops:hover {
+    border: 5px solid #f7b600;
+}
+
+#rodape {
+    padding: 20px;
+    background-color: black;
+    margin-top: 10px;
+    height: auto;
+    text-align: left;
+    color: white;
+    font-style: Arial;
+}
+
+#atendimento {
+    font-family: Adobe Arabic;
+    font-size: 22px;
+    color: white;
+}
+
+#ajuda-suporte {
+    font-family: Adobe Arabic;
+    font-size: 22px;
+    color: white;
+}
+
+#sobre {
+    font-family: Adobe Arabic;
+    font-size: 22px;
+    color: white;
+}
+
+#redes-sociais {
+    font-family: Adobe Arabic;
+    font-size: 22px;
+    color: white;
+}
+
+#redes {
+    height: 80px;
+    width: 340px;
+    background-color: white;
+    margin-left: -50px;
+    margin-top: -30px;
+}
+
+#contato {
+    margin-left: 600px;
+}

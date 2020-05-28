@@ -1,0 +1,15 @@
+Instruções para poder compilar o MVP em uma maquina de teste
+
+O MVP está contido no diretório Script/Search Beers
+
+Para poder utiliza-lo será necessário utilizar um navegador. 
+Recomendação: Google Chrome
+
+1- Baixe o arquivo .zip
+
+2- Extraia o arquivo .zip no seu local de preferência
+
+3- Abra a pasta extraida e entre no diretório Script/Search Beers execute a Página inicio.html
+Atenção caso não abrir com o navegador desejado. clique com o botão direito do mouse sobre o arquivo .html e clique em abrir com Google Chrome
+
+4- Fim,desfrute do site de busca de cervejas artesanais Search Beers. 
