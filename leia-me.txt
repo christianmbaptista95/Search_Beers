@@ -13,3 +13,16 @@ Recomendação: Google Chrome
 Atenção caso não abrir com o navegador desejado. clique com o botão direito do mouse sobre o arquivo .html e clique em abrir com Google Chrome
 
 4- Fim,desfrute do site de busca de cervejas artesanais Search Beers. 
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Banco de Dados - 
+
+Utilizamos o Mysql Workbench para desenvolver o modelo físico e inserir os dados.
+
+Os arquivos contidos no diretorio Script/Banco de Dados são os seguintes
+
+Dados do BD Search_Beers Exportado.sql <- Dados exportados de do banco de dados com informações já inseridas.
+
+search_beers .mwb Modelo Físico do Banco de Dados
+
