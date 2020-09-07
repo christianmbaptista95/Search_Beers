@@ -8,27 +8,12 @@
 }
 
 
-/*
---- Padrões e Reset
-*/
 
-
-/*
---- Tipografia e cores
-*/
-
-#fundo {
-    width: auto;
-    height: auto;
-    background-repeat: repeat;
-    background-size: 100%;
+body{
+    background-color: #f7b600;
 }
 
-label {
-    color: white;
-}
-
-a {
+label,a {
     color: white;
 }
 
@@ -37,19 +22,20 @@ a:hover {
     text-decoration: none;
 }
 
-h1 {
+h1,h3 {
     font-family: Selphia Selphia Script;
     font-size: 30px;
     padding-left: 10px;
     color: white;
     text-align: center;
+    font-weight: bolder;
 }
 
-h2,
-p {
+h2,p {
     color: white;
     text-align: center;
 }
+
 
 h4 {
     font-family: Adobe Arabic;
@@ -59,38 +45,30 @@ h4 {
     font-weight: 900;
 }
 
-#e-mail-contato {
-    color: blue;
-}
-
 hr {
     border: 3px solid white;
 }
 
 
-/*
---- Estrutura
-*/
 
 
-/*
---- Estilos específicos de Seção
-*/
+#area-cabecalho {
+    padding: 20px;
+}
 
+#logo {
+    height: 140px;
+    width: 160px;
+}
 
-/*
---- Formulários
-*/
+#area-logo {
+    width: 100%;
+    background-color: black;
+    height: 230px;
+    text-align: center;
+}
 
-
-/*
---- Tabelas
-*/
-
-
-/*
---- Classes de Uso Geral
-*/
+/* Menu - Inicio */
 
 .menu {
     width: 99, 9%;
@@ -121,8 +99,8 @@ hr {
 }
 
 .menu a:hover {
-    background-color: #f7b600;
-    color: white;
+ 
+    color: #f7b600;
 }
 
 .menu ul ul {
@@ -140,57 +118,13 @@ nav ul ul ul {
     top: 0;
 }
 
-#area-cabecalho {
-    padding: 20px;
+#login{
+    padding-right: 200px;
+    padding-top: 2px;
 }
 
-#logo {
-    height: 140px;
-    width: 160px;
-}
+/* Menu  - Fim */
 
-#area-logo {
-    width: 100%;
-    background-color: black;
-    height: 230px;
-    text-align: center;
-}
-
-.img-fluid {
-    max-width: 100%;
-    height: 320;
-    width: 500;
-}
-
-.img-fluid2 {
-    height: 400px;
-    width: 100%;
-    margin-left: 230px;
-    margin-top: -260px;
-}
-
-.img-fluid3 {
-    height: 250px;
-    width: 90%;
-    margin-left: 230px;
-    margin-top: -260px;
-}
-
-#logo-invicta {
-    text-align: center;
-}
-
-#logo-colorado {
-    text-align: center;
-}
-
-#logo-contato {
-    text-align: center;
-}
-
-#logo-sobre-nos {
-    text-align: center;
-}
 
 .postagem {
     background: black;
@@ -200,118 +134,179 @@ nav ul ul ul {
     margin-top: 10px;
 }
 
+
+.img-fluid {
+    max-width: 100%;
+    height: 320;
+    width: 500;
+}
+
+#logo-colorado1 {
+    text-align: center;
+}
+
+#logo-colorado2{
+    text-align: center;
+    height: 280px;
+    width: 650px;
+    margin-top: 100px;
+}
+
+#logo-invicta {
+    text-align: center;
+}
+
 #estilos {
     margin-left: 170px;
     margin-right: 150px;
 }
 
-#ordenar {
-    margin-left: 950px;
+.btn{
+    background-color: #f7b600;
+    color: white;
 }
 
-#colorado {
-    border: 5px solid black;
-    height: 230px;
+.btn:hover{
+ 
+    color: white;
+  
+}
+
+.cerveja {
+    height: 200px;
     width: 180px;
-    margin-left: 135px;
     font-size: 18px;
+    text-align: center; 
 }
 
-#colorado:hover {
-    border: 5px solid #f7b600;
-    text-decoration: none;
-}
-
-#invicta {
-    border: 5px solid black;
-    height: 230px;
-    width: 180px;
-    margin-left: 135px;
-    font-size: 18px;
-}
-
-#invicta:hover {
+.cerveja:hover {
     border: 5px solid #f7b600;
 }
 
-#lund {
-    border: 5px solid black;
-    height: 230px;
-    width: 180px;
-    margin-left: 135px;
-    font-size: 18px;
+
+.popover{
+    background-color:#f7b600;
 }
 
-#lund:hover {
-    border: 5px solid #f7b600;
-}
-
-#pratinha {
-    border: 5px solid black;
-    height: 230px;
-    width: 180px;
-    margin-left: 135px;
-    font-size: 18px;
-}
-
-#pratinha:hover {
-    border: 5px solid #f7b600;
-}
-
-#jops {
-    border: 5px solid black;
-    height: 230px;
-    width: 180px;
-    margin-left: 135px;
-    font-size: 18px;
-}
-
-#jops:hover {
-    border: 5px solid #f7b600;
-}
 
 #rodape {
-    padding: 20px;
+    padding: 10px;
     background-color: black;
-    margin-top: 10px;
     height: auto;
-    text-align: left;
+    text-align: center;
     color: white;
     font-style: Arial;
+    margin-top: 10px;
 }
 
-#atendimento {
-    font-family: Adobe Arabic;
-    font-size: 22px;
+.rede_social{
+    padding: 5px;
+}
+
+
+/*  Tela Login */
+.form{
+    width: 400px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+
+.card {
+    box-shadow: 1px 1px 5px #cccccc;
+    background-color: black;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.card-top{
+    text-align: center;
+}
+
+.card-group{
+    margin-bottom: 10px;
+}
+
+.card-group > label{
+    width: 100%;
+    color: white;
+    display: block;
+}
+
+.card-group > input{
+    border-radius: 5px;
+    outline: 0;
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+ }
+
+ 
+.img-login{
+    border-radius: 50px;
+    width: 100px;
+    box-shadow: 0px 0px 2px #f7b600;
+}
+
+/*  Tela Login */
+
+
+
+
+/* Modal - Inicio  */
+.bs-tooltip-auto[x-placement^=bottom] .arrow::before,
+.bs-tooltip-bottom .arrow::before {
+  border-bottom-color: #f7b600; 
+}
+
+.tooltip-main {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    font-weight: 700;
+    background: #f3f3f3;
+    border: 1px solid #737373;
+    color: #737373;
+    margin: 4px 121px 0 5px;
+    float: right;
+    text-align: left !important;
+  }
+  
+  .tooltip-qm {
+    float: left;
+    margin: -2px 0px 3px 4px;
+    font-size: 12px;
+  }
+  
+  .tooltip-inner {
+    max-width: 236px !important;
+    height: 76px;
+    font-size: 15px;
+    padding: 5px 15px 150px 20px;
+    background: #f7b600;
+    color: white;
+    border: 1px solid #737373;
+    text-align: left;
+  }
+  
+  .tooltip.show {
+    opacity: 1;
+  }
+  
+  .bs-tooltip-auto[x-placement^=bottom] .arrow::before,
+  .bs-tooltip-bottom .arrow::before {
+    border-bottom-color:#f7b600;
+  }
+
+
+  .modal-content{
+    background-color: black;
+}
+.modal-body{
+    color:white;
+}
+
+#accordion{
     color: white;
 }
-
-#ajuda-suporte {
-    font-family: Adobe Arabic;
-    font-size: 22px;
-    color: white;
-}
-
-#sobre {
-    font-family: Adobe Arabic;
-    font-size: 22px;
-    color: white;
-}
-
-#redes-sociais {
-    font-family: Adobe Arabic;
-    font-size: 22px;
-    color: white;
-}
-
-#redes {
-    height: 80px;
-    width: 340px;
-    background-color: white;
-    margin-left: -50px;
-    margin-top: -30px;
-}
-
-#contato {
-    margin-left: 600px;
-}
+/* Modal - Fim  */
