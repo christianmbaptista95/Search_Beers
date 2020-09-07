@@ -1,0 +1,243 @@
+<html>
+
+<head>
+
+    <title> Inicio - Parceiro - Search Beers</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="imagens/logo.png">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+
+<body>
+    <div id="area-cabecalho">
+        <div class="area-principal">
+            <form class="form" action="">
+
+                <div class="card">
+
+
+
+
+
+
+                    <a href="inicio.html"><img src="imagens/inicio.png" alt="" width="30" height="30"></a>
+
+
+
+                    <div class="card-top">
+                        <img class="img-login" src="imagens/usuario.png" alt="" />
+                        <p><b>Acesse sua conta</b></p>
+                    </div>
+
+                    <div class="card-group">
+                        <label>E-mail</label>
+                        <input type="text" name="email" placeholder="Digite o seu e-mail">
+                    </div>
+
+                    <div class="card-group">
+                        <label>Senha</label>
+                        <input type="password" name="senha" placeholder="Digite a sua senha">
+                        <a href="#" data-toggle="modal" data-target="#modal-recuperacao"><u>Esqueci minha senha</u></a>
+                    </div>
+
+
+
+
+
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn">Entrar</button>
+
+                                <button type="button" class="btn" data-toggle="modal"
+                                    data-target="#modal-cadastro">Cadastrar-se</button>
+
+                                <button type="button" class="btn" data-toggle="modal"
+                                    data-target="#modal-convite">Convite</button>
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="modal" id="modal-cadastro">
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Cadastro</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+
+
+                                    <div class="modal-body">
+                                        Dados Pessoais
+                                    </div>
+                                    <div class="modal-body">
+                                        <form id="form-inclusao-registro" action="" method="post">
+                                            <div class="row">
+                                                <div class="col-12 col-md-8">
+                                                    <div class="form-group">
+                                                        E-mail *
+                                                        <input type="text" class="form-control" id="email"
+                                                            name="Digite o seu e-mail"
+                                                            placeholder="Digite o seu E-mail">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-12 col-md-5">
+                                                    <div class="form-group">
+                                                        Cpf *
+                                                        <input type="text" class="form-control" id="cpf"
+                                                            name="Digite o seu cpf" placeholder="Digite o seu cpf">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-12 col-md-9">
+                                                    <div class="form-group">
+                                                        Nome Completo *
+                                                        <input type="text" class="form-control" id="nome-completo"
+                                                            name="nome-completo" placeholder="Digite o seu nome">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-12 col-md-5">
+
+                                                    Data de Nascimento *
+                                                    <div class="form-group">
+
+
+                                                        <input type="date" class="form-control" id="data-nascimento"
+                                                            name="data-nascimento" placeholder="Data de Nascimento">
+
+                                                    </div>
+
+                                                </div>
+                                                <div class="form-group col-md-4">
+                                                    Gênero *
+                                                    <select id="inputSexo" class="form-control">
+                                                        <option selected>Selecione</option>
+                                                        <option>Masculino</option>
+                                                        <option>Feminino</option>
+                                                    </select>
+                                                </div>
+
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12 col-md-5">
+                                                    <div class="form-group">
+                                                        Informa a senha *
+                                                        <input type="password" class="form-control" id="senha"
+                                                            name="senha" placeholder="Digite a sua senha">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-5">
+                                                    <div class="form-group">
+                                                        Confirma a senha *
+                                                        <input type="password" class="form-control"
+                                                            id="confirmacao-senha" name="confirmacao-senha"
+                                                            placeholder="Digite a sua confirmação de senha ">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="modal-footer">
+                                                <div class="form-group">
+                                                    <button type="submit"
+                                                        class="btn btn-primary btn btn-block mt-2">Gravar</button>
+                                                </div>
+                                                <div class="form-group">
+                                                    <button type="submit"
+                                                        class="btn btn-secondary btn btn-block mt-2">Cancelar</button>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal" id="modal-convite">
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+
+                                    <div class="modal-header">
+                                        <h4 class="modal-title"></h4>
+                                    </div>
+
+
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Convite</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+
+
+                                    <div class="modal-body">
+                                        Convite
+                                    </div>
+
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="modal" id="modal-recuperacao">
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Esqueci minha senha</h4>
+                                    </div>
+
+
+                                    <div class="modal-body">
+                                        Para recuperar a sua senha,informe o seu e-mail.
+                                        <div class="card-group">
+                                            <input type="text" name="email" placeholder="Informe o seu e-mail aqui..">
+
+                                        </div>
+                                        <button type="button" class="btn">Enviar</button>
+
+
+                                        <div class="modal-body">
+                                        </div>
+                                        Após o envio você receberá um e-mail de ajuda para cadastrar uma nova
+                                        senha.
+                                    </div>
+
+
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+            </form>
+
+        </div>
+
+    </div>
+    </div>
+</body>
+
+</html>
