@@ -1,0 +1,332 @@
+/*
+--- estilos  CSS - Website Seerch Beers
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-color: #f7b600;
+}
+
+label,a,h5 {
+    color: white;
+}
+
+td {
+	color: white;
+}
+
+
+a:hover {
+    color: #f7b600;
+    text-decoration: none;
+}
+
+h1,h3 {
+    font-family: Selphia Selphia Script;
+    font-size: 30px;
+    padding-left: 10px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+h2,p {
+    color: white;
+    text-align: center;
+}
+
+
+h4{
+    font-family: Adobe Arabic;
+    font-size: 22px;
+    padding-left: 20px;
+    color: white;
+    font-weight: 900;
+}
+
+hr {
+    border: 3px solid white;
+}
+
+
+
+
+#area-cabecalho {
+    padding: 20px;
+}
+
+#logo {
+    height: 130px;
+    width: 160px;
+  
+}
+
+#searchbeers{
+	font-family: Selphia Script;
+	font-size: 30px;
+	 font-weight: 700;	
+}
+
+#slogan{
+	font-family: Selphia Script;
+	font-size: 18px;
+	  font-weight: 700;
+}
+
+#area-logo {
+    width: 100%;
+    background-color: black;
+    height: 310px;
+    text-align: center;
+}
+
+/* Menu - Inicio */
+
+.menu {
+    width: 99, 9%;
+    height: 75px;
+    background-color: black;
+    font-size: 22px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    position: relative;
+}
+
+.menu ul li {
+    width: 150px;
+    float: left;
+}
+
+.menu a {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.menu a:hover {
+ 
+    color: #f7b600;
+}
+
+.menu ul ul {
+    position: absolute;
+    visibility: hidden;
+}
+
+.menu ul li:hover ul {
+    visibility: visible;
+}
+
+nav ul ul ul {
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+#login{
+    padding-right: 200px;
+    padding-top: 2px;
+}
+
+/* Menu  - Fim */
+
+
+.postagem {
+    background: black;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+}
+
+
+.img-fluid {
+    max-width: 100%;
+
+}
+
+
+
+#logo-cerveja{
+    height: 400px;
+    width: 500px;
+}
+
+
+#logo-colorado1 {
+    text-align: center;
+}
+
+
+#logo-invicta {
+        text-align: center;
+}
+
+
+
+#estilos {
+    margin-left: 170px;
+    margin-right: 150px;
+}
+
+.btn{
+    background-color: #f7b600;
+    color: white;
+}
+
+.btn:hover{
+ 
+    color: white;
+  
+}
+
+.cerveja {
+  
+    font-size: 18px;
+    text-align: center; 
+}
+
+.cerveja:hover {
+    border: 5px solid #f7b600;
+}
+
+
+.popover{
+    background-color:#f7b600;
+}
+
+
+#rodape {
+    padding: 10px;
+    background-color: black;
+    height: auto;
+    text-align: center;
+    color: white;
+    font-style: Arial;
+    margin-top: 10px;
+}
+
+.rede_social{
+    padding: 5px;
+}
+
+
+/*  Tela Login */
+.form{
+    width: 400px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+
+.card {
+    box-shadow: 1px 1px 5px #cccccc;
+    background-color: black;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.card-top{
+    text-align: center;
+}
+
+.card-group{
+    margin-bottom: 10px;
+}
+
+.card-group > label{
+    width: 100%;
+    color: white;
+    display: block;
+}
+
+.card-group > input{
+    border-radius: 5px;
+    outline: 0;
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+ }
+
+ 
+.img-login{
+    border-radius: 50px;
+    width: 100px;
+    box-shadow: 0px 0px 2px #f7b600;
+}
+
+/*  Tela Login */
+
+
+
+
+/* Modal - Inicio  */
+.bs-tooltip-auto[x-placement^=bottom] .arrow::before,
+.bs-tooltip-bottom .arrow::before {
+  border-bottom-color: #f7b600; 
+}
+
+.tooltip-main {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    font-weight: 700;
+    background: #f3f3f3;
+    border: 1px solid #737373;
+    color: #737373;
+    margin: 4px 121px 0 5px;
+    float: right;
+    text-align: left !important;
+  }
+  
+  .tooltip-qm {
+    float: left;
+    margin: -2px 0px 3px 4px;
+    font-size: 12px;
+  }
+  
+  .tooltip-inner {
+    max-width: 236px !important;
+    height: 76px;
+    font-size: 15px;
+    padding: 5px 15px 160px 20px;
+    background: #f7b600;
+    color: white;
+    border: 1px solid #737373;
+    text-align: left;
+  }
+  
+  .tooltip.show {
+    opacity: 1;
+  }
+  
+  .bs-tooltip-auto[x-placement^=bottom] .arrow::before,
+  .bs-tooltip-bottom .arrow::before {
+    border-bottom-color:#f7b600;
+  }
+
+
+  .modal-content{
+    background-color: black;
+}
+.modal-body{
+    color:white;
+}
+
+#accordion{
+    color: white;
+}
+/* Modal - Fim  */
